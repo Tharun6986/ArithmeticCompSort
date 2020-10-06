@@ -7,3 +7,6 @@ read -p "enter third value: " c
 
 ##UserCase2
 UC2=$((($a+$b)*$c))
+
+##UserCase3
+UC3=$((($a*$b)+$c))
