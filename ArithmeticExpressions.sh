@@ -10,3 +10,6 @@ UC2=$((($a+$b)*$c))
 
 ##UserCase3
 UC3=$((($a*$b)+$c))
+
+##UserCase4
+UC4=$((($c+$a)/$b))
