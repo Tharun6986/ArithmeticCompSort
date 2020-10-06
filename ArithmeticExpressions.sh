@@ -13,3 +13,6 @@ UC3=$((($a*$b)+$c))
 
 ##UserCase4
 UC4=$((($c+$a)/$b))
+
+##UserCase5
+UC5=$((($a%$b)+$c))
