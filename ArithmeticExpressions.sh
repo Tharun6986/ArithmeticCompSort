@@ -24,3 +24,6 @@ dictionary[key2]=$UC3
 dictionary[key3]=$UC4
 dictionary[key4]=$UC5
 
+##Reading values from dictionary to array
+array=${dictionary[@]}
+echo  "array values are: "${array[@]}
