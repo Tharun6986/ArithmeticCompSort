@@ -32,3 +32,7 @@ echo  "array values are: "${array[@]}
 DescendingOrder=`echo ${array[@]} | awk 'BEGIN{RS=" ";} {print $1}' | sort -nr`
 echo "values in descending order are: " ${DescendingOrder[@]}
 
+##Sorting the values in ascending order
+AscendingOrder=`echo ${array[@]} | awk 'BEGIN{RS=" ";} {print $1}' | sort -n`
+echo "values in ascending order are: " ${AscendingOrder[@]}
+
