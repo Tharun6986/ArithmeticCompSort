@@ -27,3 +27,8 @@ dictionary[key4]=$UC5
 ##Reading values from dictionary to array
 array=${dictionary[@]}
 echo  "array values are: "${array[@]}
+
+##Sorting the values in descending order
+DescendingOrder=`echo ${array[@]} | awk 'BEGIN{RS=" ";} {print $1}' | sort -nr`
+echo "values in descending order are: " ${DescendingOrder[@]}
+
